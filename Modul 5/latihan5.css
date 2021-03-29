@@ -1,0 +1,9 @@
+p.dotted { border-style: dotted; border-color : rgb(155, 12, 12);}
+p.dashed { border-style: dashed; border-color : rgb(12, 155, 12);}
+p.solid { border-style: solid; border-color : rgb(12, 12, 155);}
+p.double { border-style: double; border-color : rgb(155, 155, 12);}
+p.groove { border-style: groove; border-color : rgb(155, 12, 12);}
+p.ridge { border-style: ridge; border-color : rgb(155, 12, 155);}
+p.inset { border-style: inset; border-color : rgb(12, 155, 155);}
+p.outset { border-style: outset; border-color : rgb(110, 112, 121);}
+p.none { border-style: none; border-color : rgb(155, 12, 124);}

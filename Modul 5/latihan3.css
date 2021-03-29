@@ -1,0 +1,13 @@
+body {
+	background-color: rgb(70, 80, 195);
+}
+
+h1 {
+	text-align: center;
+	color: rgb(10, 10, 10);
+}
+
+p {
+	color: whitesmoke;
+	font-family: 'Calibri', Courier, monospace;
+}

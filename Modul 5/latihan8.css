@@ -1,0 +1,34 @@
+body {
+	margin-left:100px;
+	margin-right: 100px; 
+}
+
+ul {
+	overflow: hidden;
+	background-color: black;
+	padding: 0;
+	margin: 0;
+	list-style-type: none;
+	width: 100%;
+}
+
+li {
+	float: left;
+}
+
+li a {
+	color: blanchedalmond;
+	display: inline-block;
+	text-align: center;
+	padding: 10px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: blachedalmond;
+}
+
+img {
+	height: 150px;
+	width: 100%;
+}

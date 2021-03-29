@@ -1,0 +1,44 @@
+<html>
+<head>
+	<title></title>
+</head>
+<body>
+	<form action="register.php" method="POST">
+      	<fieldset>
+            <legend>Form Registrasi Peminjaman Buku Perpustakaan</legend>
+            <table align="center">
+            	<tr>
+                	<td>Nama : </td>
+                	<td><input type="text" name="Nama" placeholder="Nama Lengkap"></td>
+                </tr>
+                <tr>
+                	<td>No. Kartu Tanda Penduduk : </td>
+                	<td><input type="text" name="NIS" placeholder="640202151235232"></td>
+                </tr>
+                <tr>
+                	<td>Tanggal Lahir</td>
+                	<td><input type="date" name="TglLhr"></td>
+                </tr>
+                <tr>
+                	<td>Jenis Kelamin</td>
+                	<td>
+                		<input type="radio" name="tipe" value="male">Laki-Laki
+                		<input type="radio" name="tipe" value="female">Perempuan
+                	</td>
+                </tr>
+               	<tr>
+                	<td>Lama Meminjam Buku (hari)</td>
+                	<td><input type="number" name="LamaPinjam"></td>
+                </tr>
+                <tr>
+                	<td>Judul Buku yang dipinjam</td>
+                	<td><input type="text" value="NamaBuku"></td>
+                </tr>
+                <tr>
+                	<td colspan="2" align="center"><br><input type="submit" name="submit"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
