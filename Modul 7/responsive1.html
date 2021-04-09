@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>Penggunaan Media Query CSS3</title>
+
+	<style>
+
+		body {
+			background-color: orange;
+		}
+
+		.text-2 {
+			display: none;
+		}
+
+		@media only screen and (max-width: 375px) {
+			body {
+				background-color: navy;
+				color: white;
+			}
+
+			.text-2 {
+				display: block;
+			}
+
+			.text {
+				display: none;
+			}
+		}
+	</style>
+	<meta name="viewport" content="width-device-width,initial-scale=1-0">
+</head>
+<body>
+	<h2 align="center">Media Query CSS 3</h2><br>
+
+	<div class="text-2">
+		<h2>Benerkan berubah ........</h2>
+	</div><br>
+
+	<h3 class="text" align="center">Jika layar device memiliki resolusi layar dengan lebar 375px atau kurang, maka background akan berubah menjadi warna</h3>
+
+</body>
+</html>
